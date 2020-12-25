@@ -26,6 +26,10 @@ body{
     flex: 0 0 30.0%;
     border:1px solid #000;
 }
+.col-10{
+    flex: 0 0 30.0%;
+    
+}
 .col-4{
     flex: 0 0 40.0%;
     border:1px solid #000;

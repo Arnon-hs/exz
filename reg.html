@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <title>Registration</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Registration</h1>
+        <h2 class="js-success"></h2>
+    </div>
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-3">menu</div>
+                <div class="col-4">
+                    <div class="row d-flex wrap">
+                        <form action="system.php" class="auth-form">
+                            <div class="col-10">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name">
+                                <input type="hidden" value="login">
+                            </div>
+                            <div class="col-10">
+                                <button type="submit">Registration</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            <div class="col-3">news</div>
+        </div>
+    </div>
+</body>
+</html>
