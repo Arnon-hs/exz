@@ -9,7 +9,7 @@ header('Cache-Control: post-check=0, pre-check=0', FALSE);
 header('Pragma: no-cache');
 
 // Устанавливаем соединение с БД
-$mysqli = new mysqli("live.proofix.tv", "root", "HQHm&GW4\sdw[Ya&4};p", "exam");
+$mysqli = new mysqli("localhost", "mysqladmin", "voNgie9Ac9th", "exam");
 $mysqli->set_charset("utf8");
 
 if ($mysqli->connect_errno)
