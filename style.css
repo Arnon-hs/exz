@@ -1,0 +1,48 @@
+*{
+    margin:0;
+}
+body{
+    background: #fff;
+}
+/* .container{
+    max-width: 1180px;
+} */
+.row{
+    margin: auto;
+    text-align: center;   
+    height: 100vh;
+}
+.title{
+    text-align: center;   
+    width: 100%;
+    height: 15%;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.col-3{
+    flex: 0 0 30.0%;
+    border:1px solid #000;
+}
+.col-4{
+    flex: 0 0 40.0%;
+    border:1px solid #000;
+}
+.product{
+    min-height: 10%;
+    margin: 1rem;
+    padding:10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.wrap{
+    flex-flow: wrap;
+}
+.js-success{
+    display: none;
+    color:green
+}
